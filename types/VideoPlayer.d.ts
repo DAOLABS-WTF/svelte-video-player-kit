@@ -111,6 +111,12 @@ export interface VideoPlayerProps {
   loop?: boolean;
 
   /**
+   * Play video x number of times
+   * @default false
+   */
+  times?: boolean | number;
+
+  /**
    * Skipping time in seconds
    * @default 5
    */
